@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Day23 {
+public class day23 {
     public static List<Integer> maxSlidingWindow(int[] nums, int k) {
         List<Integer> result = new ArrayList<>();
         Deque<Integer> deque = new LinkedList<>();
